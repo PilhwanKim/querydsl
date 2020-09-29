@@ -69,7 +69,7 @@ class MemberRepositoryTest {
 
         assertThat(result).extracting("username").containsExactly("member4");
     }
-    
+
     @Test
     public void searchPageSimple() {
         Team teamA = new Team("teamA");
